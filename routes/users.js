@@ -8,7 +8,6 @@ router.get('/', function(req, res, next) {
   mongoRepository.db.collection("testCollection").find().toArray(function(err, docs){
     res.json(docs);
   });
-  //res.send('respond with a resource');
 });
 
 module.exports = router;

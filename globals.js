@@ -7,7 +7,7 @@ var __globals;
 __globals = (function () {
 
     // Instance stores a reference to the Singleton
-    var instance;
+    var instance = null;
 
     function init() {
 
