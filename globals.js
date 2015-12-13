@@ -12,7 +12,7 @@ __globals = (function () {
     function init() {
 
         return {
-            mongoRepository: new MongoRepository({connectionString: "mongodb://localhost:27017/testDB"})
+            mongoRepository: new MongoRepository({connectionString: "mongodb://localhost:27017/QueueDB"})
         };
 
     }

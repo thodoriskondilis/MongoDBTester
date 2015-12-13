@@ -5,7 +5,7 @@ var mongoRepository = globals.mongoRepository;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  mongoRepository.db.collection("testCollection").find().toArray(function(err, docs){
+  mongoRepository.db.collection("topic_installs").find().toArray(function(err, docs){
     res.json(docs);
   });
 });
